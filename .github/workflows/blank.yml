@@ -44,6 +44,7 @@ jobs:
           git clone https://github.com/mayankagarwal19911/lbg-springboot-template.git
           git fetch --unshallow https://github.com/mayankagarwal19911/lbg-springboot-template.git
           git remote remove origin
+          cd lbg-springboot-template/
           git init
           git remote add origin https://mayankagarwal19911@github.com/mayankagarwal19911/to-delete.git
           git add .
