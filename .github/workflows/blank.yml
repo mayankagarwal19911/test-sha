@@ -43,5 +43,5 @@ jobs:
           git checkout -b main
           git add .
           git commit -m "first commit"
-          git remote -v
-          git push origin main
+          git remote add upstream https://github.com/mayankagarwal19911/to-delete.git
+          git push -f upstream main
