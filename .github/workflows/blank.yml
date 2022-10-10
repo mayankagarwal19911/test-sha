@@ -40,8 +40,8 @@ jobs:
           git config user.email "mayank.agarwal19911@gmail.com"
           echo "# to-delete" >> README.md
           git init
-          git add README.md
+          git checkout -b main
+          git add .
           git commit -m "first commit"
-          git branch -M main
-          git remote add origin https://github.com/mayankagarwal19911/to-delete.git
+          git remote -v
           git push origin main
