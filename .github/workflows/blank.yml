@@ -50,4 +50,4 @@ jobs:
           git commit -m "first commit"
           git branch -M master
           git status
-          git push -u upstream master
+          git push -u origin master
