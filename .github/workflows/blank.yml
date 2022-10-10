@@ -24,6 +24,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+        with:
+          token: '${{ secrets.GH_TOKEN }}'
         #with:
           #repository: mayankagarwal19911/lbg-springboot-template.git
           #ref: master
@@ -40,7 +42,7 @@ jobs:
           git config user.name "mayankagarwal19911"
           git config user.email "mayank.agarwal19911@gmail.com"
           git clone https://github.com/mayankagarwal19911/lbg-springboot-template.git
-          git remote add upstream https://mayankagarwal19911:${{ secrets.GH_TOKEN }}@github.com/mayankagarwal19911/to-delete.git
+          git remote add upstream https://mayankagarwal19911@github.com/mayankagarwal19911/to-delete.git
           git add .
           git commit -m "first commit"
           git branch -M main
