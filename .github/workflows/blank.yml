@@ -45,6 +45,7 @@ jobs:
           git remote add upstream https://mayankagarwal19911@github.com/mayankagarwal19911/to-delete.git
           git add .
           git commit -m "first commit"
+          git pull
           git branch -M main
           git status
            # git remote add upstream https://mayankagarwal19911:${{ secrets.GH_TOKEN }}@github.com/mayankagarwal19911/to-delete.git
