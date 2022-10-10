@@ -46,16 +46,10 @@ jobs:
           cd lbg-springboot-template/
           ls
           rm -rf .git
-          #git remote rm origin
-          #git remote -v
-          #git remote remove origin
           git init
-          git remote add origin https://mayankagarwal19911@github.com/mayankagarwal19911/to-delete.git
           git remote -v
-          #git checkout -b master
           git add .
+          git commit -m "first commit"
           git branch -M master
-          #git commit -m "first commit"
-          #git branch -M master
-          #git status
+          git remote add origin https://mayankagarwal19911@github.com/mayankagarwal19911/to-delete.git
           git push origin master
