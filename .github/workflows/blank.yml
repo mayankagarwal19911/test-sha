@@ -45,7 +45,7 @@ jobs:
           git fetch --unshallow https://github.com/mayankagarwal19911/lbg-springboot-template.git
           cd lbg-springboot-template/
           ls
-          git rm .git
+          rm -rf .git
           git init
           git remote -v
           git add .
