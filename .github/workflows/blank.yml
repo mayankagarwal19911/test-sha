@@ -39,4 +39,5 @@ jobs:
           git config user.email mayank.agarwal19911@gmail.com
           git add .
           git commit -m "generated"
-          git push
+          git remote add origin https://github.com/mayankagarwal19911/to-delete.git
+          git push origin main
