@@ -53,8 +53,9 @@ jobs:
           git remote add origin https://mayankagarwal19911@github.com/mayankagarwal19911/to-delete.git
           git remote -v
           #git checkout -b master
-          #git add .
+          git add .
+          git branch -M master
           #git commit -m "first commit"
           #git branch -M master
           #git status
-          #git push origin master
+          git push origin master
