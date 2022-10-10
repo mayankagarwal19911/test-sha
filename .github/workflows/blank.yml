@@ -24,9 +24,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-        with:
-          repository: mayankagarwal19911/lbg-springboot-template.git
-          ref: master
+        #with:
+          #repository: mayankagarwal19911/lbg-springboot-template.git
+          #ref: master
         
 
       # Runs a single command using the runners shell
@@ -46,4 +46,4 @@ jobs:
           git branch -M main
           git status
            # git remote add upstream https://mayankagarwal19911:${{ secrets.GH_TOKEN }}@github.com/mayankagarwal19911/to-delete.git
-           # git push -u upstream main
+          git push -f upstream main
