@@ -45,6 +45,7 @@ jobs:
           git fetch --unshallow https://github.com/mayankagarwal19911/lbg-springboot-template.git
           cd lbg-springboot-template/
           ls
+          git remote -v
           #git remote remove origin
           #git remote add origin https://mayankagarwal19911@github.com/mayankagarwal19911/to-delete.git
           #git add .
