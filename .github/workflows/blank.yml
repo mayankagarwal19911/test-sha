@@ -45,13 +45,16 @@ jobs:
           git fetch --unshallow https://github.com/mayankagarwal19911/lbg-springboot-template.git
           cd lbg-springboot-template/
           ls
-          git remote rm origin
-          git remote -v
+          rm -rf .git
+          #git remote rm origin
+          #git remote -v
           #git remote remove origin
+          git init
           git remote add origin https://mayankagarwal19911@github.com/mayankagarwal19911/to-delete.git
           git remote -v
+          #git checkout -b master
           #git add .
           #git commit -m "first commit"
           #git branch -M master
           #git status
-          #git push -u origin master
+          #git push origin master
