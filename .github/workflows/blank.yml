@@ -41,8 +41,9 @@ jobs:
           git config user.email "mayank.agarwal19911@gmail.com"
           echo "# to-delete" >> README.md
           git init
-          git checkout -b main
           git add .
           git commit -m "first commit"
+          git branch -M main
+          git status
           git remote add upstream https://mayankagarwal19911:${{ secrets.GH_TOKEN }}@github.com/mayankagarwal19911/to-delete.git
-          git push -f upstream main
+          git push -u upstream main
