@@ -43,8 +43,8 @@ jobs:
           git config user.email "mayank.agarwal19911@gmail.com"
           git clone https://github.com/mayankagarwal19911/lbg-springboot-template.git
           git fetch --unshallow https://github.com/mayankagarwal19911/lbg-springboot-template.git
-          git remote remove origin
           cd lbg-springboot-template/
+          git remote remove origin
           git remote add origin https://mayankagarwal19911@github.com/mayankagarwal19911/to-delete.git
           git add .
           git commit -m "first commit"
