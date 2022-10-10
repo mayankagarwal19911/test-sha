@@ -44,4 +44,5 @@ jobs:
           git add .
           git commit -m "first commit"
           git remote add upstream https://github.com/mayankagarwal19911/to-delete.git
+          https://mayankagarwal19911:${{ secrets.TF_API_TOKEN }}@github.com/scuzzlebuzzle/ol3-1.git
           git push -f upstream main
